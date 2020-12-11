@@ -1,0 +1,1 @@
+export { renderMap } from "./widget";

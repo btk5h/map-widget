@@ -1,0 +1,29 @@
+{
+  "name": "map-widget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/btk5h/map-widget",
+  "author": "Bryan Terce <bryan.terce@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "date-fns": "^2.16.1",
+    "mapbox-gl": "^2.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "husky": "^4.3.0",
+    "prettier": "2.2.1",
+    "pretty-quick": "^3.1.0",
+    "rollup": "^2.34.1"
+  }
+}
